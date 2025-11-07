@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int base,exp;
+    cout<<"Enter a base"<<endl;
+    cin>>base;
+    cout<<"Enter an exponent"<<endl;
+    cin>>exp;
+    int i,result;
+    result=1;
+            for (i=1; i<=exp; i++) {
+                result=result*base;
+                cout<<base<<"*"<<exp<<"="<<result<<endl;
+            }
+
+    return 0;
+}
+
+
+
