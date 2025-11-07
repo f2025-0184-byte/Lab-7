@@ -1,0 +1,18 @@
+##include<iostream>
+using namespace std;
+int main()
+{
+    double caloriesPerMinute=3.6;
+            cout<<"Calories Burned after every 5 minutes"<<endl;
+
+            int minutes;
+            for(minutes=5; minutes<=30; minutes+=5) {
+                float caloriesBurned= minutes*caloriesPerMinute;
+                        cout<< minutes << "\t"<<caloriesBurned<<endl;
+
+
+    }
+
+
+    return 0;
+}
