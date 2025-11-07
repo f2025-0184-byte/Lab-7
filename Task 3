@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Enter a number"<<endl;
+    cin>>num;
+    int product=1;
+    for(int i=1; i<num; i++) {
+        cout<<" * "<<i+1<<" = "<<endl;
+        product *=i;
+        cout<<"Product is "<<product<<endl;
+    }
+
+
+    return 0;
+}
